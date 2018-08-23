@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The CyberPulse</title>
+<link href='/assets/css/style.css' rel='stylesheet'>
+</head>
+<body>
+<h1>
+<a href='/index.html'>
+The CyberPulse
+</a>
+</h1>
+<small>fight / tyranny / with / music</small>
+<div id='menu'></div>
+<div id='content'>
+<div id="twitch-embed"></div>
+
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<script type="text/javascript">
+  new Twitch.Embed("twitch-embed", {
+    width: 854,
+    height: 480,
+    channel: "TheCyberPulse"
+  });
+</script>
+
+</div>
+</body>
+</html>
